@@ -1,0 +1,10 @@
+[
+  {
+    "premissas": ["luz_acesa", "monitor_preto"],
+    "conclusao": "monitor_estragado"
+  },
+  {
+    "premissas": ["cabo_desconectado"],
+    "conclusao": "monitor_preto"
+  }
+]
