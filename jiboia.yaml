@@ -1,0 +1,31 @@
+# Sistema de Diagnóstico para Jiboia (Epipremnum aureum)
+
+- conclusao: excesso_de_agua
+  premissas:
+    - folhas_amarelas
+    - terra_sempre_umida
+
+- conclusao: falta_de_luz
+  premissas:
+    - folhas_pequenas
+    - perdeu_a_cor_variegada
+
+- conclusao: falta_de_agua
+  premissas:
+    - folhas_murchas
+    - terra_seca_e_solta
+
+- conclusao: queimadura_de_sol
+  premissas:
+    - manchas_castanhas_nas_folhas
+    - sol_direto_no_meio_do_dia
+
+- conclusao: planta_saudavel
+  premissas:
+    - folhas_verdes_e_firmas
+    - crescendo_novos_ramos
+
+- conclusao: aplicar_fertilizante
+  premissas:
+    - planta_saudavel
+    - crescimento_muito_lento

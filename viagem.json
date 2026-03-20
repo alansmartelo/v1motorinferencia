@@ -1,0 +1,22 @@
+[
+  {
+    "premissas": ["destino_praia", "previsao_sol"],
+    "conclusao": "levar_protetor_solar"
+  },
+  {
+    "premissas": ["levar_protetor_solar", "pele_sensivel"],
+    "conclusao": "comprar_pos_sol"
+  },
+  {
+    "premissas": ["destino_internacional", "passaporte_em_dia"],
+    "conclusao": "autorizado_a_embarcar"
+  },
+  {
+    "premissas": ["autorizado_a_embarcar", "fala_ingles"],
+    "conclusao": "viagem_tranquila"
+  },
+  {
+    "premissas": ["trabalho_remoto", "hospedagem_sem_wifi"],
+    "conclusao": "levar_roteador_4g"
+  }
+]
