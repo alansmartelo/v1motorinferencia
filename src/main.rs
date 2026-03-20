@@ -1,5 +1,10 @@
-//! # Motor de Inferência v3.0 - Modo Consultor
-//! Capaz de diagnosticar problemas a partir de sintomas iniciais.
+//! # 🧠 Motor de Inferência v3.0
+//! Este sistema simula um **Consultor Especialista**.
+//!
+//! ## 🛠️ Como funciona?
+//! 1. O usuário entra com fatos/sintomas.
+//! 2. O motor busca no arquivo `.json` ou `.yaml`.
+//! 3. O motor faz perguntas para completar lacunas no diagnóstico.
 
 use std::io::{self, Write};
 use std::fs;
